@@ -1,0 +1,5 @@
+#surefire
+#Mon Feb 17 16:17:51 CST 2014
+user.dir=/home/eric/houhaifeng/DecideManagement/DecideService
+localRepository=/home/eric/.m2/repository
+basedir=/home/eric/houhaifeng/DecideManagement/DecideService

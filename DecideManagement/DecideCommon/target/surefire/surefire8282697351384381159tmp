@@ -1,0 +1,33 @@
+#surefire
+#Sat Feb 15 15:28:57 CST 2014
+testClassesDirectory=/home/eric/houhaifeng/DecideManagement/DecideCommon/target/test-classes
+classPathUrl.4=/home/eric/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+classPathUrl.3=/home/eric/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
+classPathUrl.2=/home/eric/.m2/repository/org/apache/thrift/thrift/0.5.0/thrift-0.5.0.jar
+useManifestOnlyJar=true
+classPathUrl.1=/home/eric/houhaifeng/DecideManagement/DecideCommon/target/classes
+reportsDirectory=/home/eric/houhaifeng/DecideManagement/DecideCommon/target/surefire-reports
+classPathUrl.0=/home/eric/houhaifeng/DecideManagement/DecideCommon/target/test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=/home/eric/houhaifeng/DecideManagement/DecideCommon/src/test/java
+surefireClassPathUrl.1=/home/eric/.m2/repository/org/apache/maven/surefire/surefire-api/2.7.1/surefire-api-2.7.1.jar
+surefireClassPathUrl.0=/home/eric/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.7.1/surefire-junit3-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=/home/eric/houhaifeng/DecideManagement/DecideCommon/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+classPathUrl.8=/home/eric/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar
+classPathUrl.7=/home/eric/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar
+childDelegation=false
+classPathUrl.6=/home/eric/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+classPathUrl.5=/home/eric/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
