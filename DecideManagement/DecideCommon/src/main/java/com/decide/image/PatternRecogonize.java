@@ -24,11 +24,9 @@ public class PatternRecogonize {
   }
   public static void train(File dir){
     if(!dir.isDirectory()){
-      log.info("训练样本路径有误！");
       return;
     }
     File[] files = dir.listFiles();
-    log.info("开始对样本库" + dir.getAbsolutePath() + "中的图片训练。");
     for(File file : files){
       if(file.isFile()){
         List<int[]> list = prepocess(file);
@@ -56,16 +54,10 @@ public class PatternRecogonize {
       }
       sb.append(value);
     }
-    log.info("识别值：" + sb.toString());
     return sb.toString();
   }
   
-  /**
-   * 与模型比较
-   * @param src
-   * @param target
-   * @return
-   */
+
   public boolean compare(int[] src, int[] target){
     if(src.length != target.length){
       return false;
